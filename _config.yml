@@ -11,7 +11,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      # title: Site.atube
+      title: Tổng hợp truyện 12 Cung Hoàng đạo
 
 description: Site.atube
 author:

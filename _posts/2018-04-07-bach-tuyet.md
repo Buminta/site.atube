@@ -4,7 +4,11 @@ title: [Kim Ngưu - Bảo Bình] Bạch Tuyết
 description: TG.Cherry_Moon - Nhân vật không thuộc về tác giả.
 ---
 
-Rating: nam chính rõ ràng không phù hợp cho câu chuyện :
+### [Kim Ngưu - Bảo Bình] Bạch Tuyết
+
+#### TG.Cherry_Moon - Nhân vật không thuộc về tác giả.
+
+- Rating: nam chính rõ ràng không phù hợp cho câu chuyện :
 
 Trong một ngày đông gió buốt, tại một khung cửa sổ nơi lâu đài nguy nga lộng lẫy kia, một người phụ nữ đã cầu mong với thần linh ban cho mình một đứa con với ước nguyện trắng như tuyết, đỏ như máu, đen như gỗ mun và cô gái đã hạ sinh đứa trẻ đúng như những gì cô đã ước.
 
