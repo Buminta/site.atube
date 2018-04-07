@@ -1,4 +1,1 @@
----
-layout: nil
----
-{{ site.DOMAIN }}
+atube.site
