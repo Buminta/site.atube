@@ -1,0 +1,273 @@
+---
+layout: page
+title: About
+header: About me
+group: navigation
+---
+
+<div style="text-align: center;">
+  <div style="display: inline-block; vertical-align: middle; margin: 20px;">
+    <h3 style="width: 100%; text-align: center;">Time using</h3>
+    <canvas id="timeChart" class="center-block" style="width: 300px; height: 300px;"></canvas>
+  </div>
+  <div style="display: inline-block; vertical-align: middle; margin: 20px;">
+    <h3 style="width: 100%; text-align: center;">Level skill</h3>
+    <canvas id="skillChart" class="center-block" style="width: 300px; height: 200px;"></canvas>
+  </div>
+  <br>
+  <div class="center-block" id="legendDiv" style="display: inline-block; vertical-align: middle; margin: 20px; width: 60%;"></div>
+</div>
+
+<div class="clearfix"></div>
+<script type="text/javascript" src="{{ site.BASE_PATH }}/assets/js/chart.min.js"></script>
+<script type="text/javascript">
+  $(document).ready(function(){
+    var data = [
+      {
+          value: 10,
+          color:"#F7464A",
+          highlight: "#FF5A5E",
+          label: "HTML/HTML5"
+      },
+      {
+          value: 2,
+          color: "#FF7373",
+          highlight: "#FFB5B5",
+          label: "iOS Native"
+      },
+      {
+          value: 9,
+          color: "#FDB45C",
+          highlight: "#FFC870",
+          label: "Javascript"
+      },
+      {
+          value: 7,
+          color: "#D08770",
+          highlight: "#D087AF",
+          label: "C/C++"
+      },
+      {
+          value: 7,
+          color: "#FF62B0",
+          highlight: "#FF86C2",
+          label: "Ruby"
+      },
+      {
+          value: 3,
+          color: "#1FCB4A",
+          highlight: "#7CEB98",
+          label: "ObjC"
+      },
+      {
+          value: 9,
+          color: "#CCFF00",
+          highlight: "#CCFF66",
+          label: "NodeJS"
+      },
+      {
+          value: 8,
+          color: "#a3be8c",
+          highlight: "#a3beFA",
+          label: "Python"
+      },
+      {
+          value: 5,
+          color: "#96b5b4",
+          highlight: "#96b5DF",
+          label: "Passcal"
+      },
+      {
+          value: 9,
+          color: "#5B90BF",
+          highlight: "#a3beFF",
+          label: "CSS/CSS3"
+      },
+      {
+          value: 8,
+          color: "#46BFBD",
+          highlight: "#5AD3D1",
+          label: "Java"
+      },
+      {
+          value: 10,
+          color: "#949FB1",
+          highlight: "#A8B3C5",
+          label: "PHP"
+      },
+      {
+          value: 8,
+          color: "#6C7B8B",
+          highlight: "#B9D3EE",
+          label: "Algorithm"
+      },
+      {
+          value: 3,
+          color: "#4D5360",
+          highlight: "#616774",
+          label: "Design tools"
+      },
+      {
+          value: 6,
+          color: "#8B668B",
+          highlight: "#FFBBFF",
+          label: "C# & #"
+      },
+      {
+          value: 8,
+          color: "#A41CC6",
+          highlight: "#CB59E8",
+          label: "Android Native"
+      }
+
+    ];
+
+    var timeData = [
+      {
+          value: 10,
+          color: "#6C7B8B",
+          highlight: "#B9D3EE",
+          label: "Algorithm"
+      },
+      {
+          value: 3,
+          color:"#F7464A",
+          highlight: "#FF5A5E",
+          label: "HTML/HTML5"
+      },
+      {
+          value: 9,
+          color: "#FDB45C",
+          highlight: "#FFC870",
+          label: "Javascript"
+      },
+      {
+          value: 5,
+          color: "#5B90BF",
+          highlight: "#a3beFF",
+          label: "CSS/CSS3"
+      },
+      {
+          value: 6,
+          color: "#CCFF00",
+          highlight: "#CCFF66",
+          label: "NodeJS"
+      },
+      {
+          value: 5,
+          color: "#949FB1",
+          highlight: "#A8B3C5",
+          label: "PHP"
+      },
+      {
+          value: 3,
+          color: "#a3be8c",
+          highlight: "#a3beFA",
+          label: "Python"
+      },
+      {
+          value: 5,
+          color: "#46BFBD",
+          highlight: "#5AD3D1",
+          label: "Java"
+      },
+      {
+          value: 5,
+          color: "#A41CC6",
+          highlight: "#CB59E8",
+          label: "Android Native"
+      },
+      {
+          value: 0,
+          color: "#1FCB4A",
+          highlight: "#7CEB98",
+          label: "ObjC"
+      },
+      {
+          value: 0,
+          color: "#FF7373",
+          highlight: "#FFB5B5",
+          label: "iOS Native"
+      },
+      {
+          value: 0,
+          color: "#96b5b4",
+          highlight: "#96b5DF",
+          label: "Passcal"
+      },
+      {
+          value: 1,
+          color: "#FF62B0",
+          highlight: "#FF86C2",
+          label: "Ruby"
+      },
+      {
+          value: 1,
+          color: "#D08770",
+          highlight: "#D087AF",
+          label: "C/C++"
+      },
+      {
+          value: 2,
+          color: "#4D5360",
+          highlight: "#616774",
+          label: "Design tools"
+      },
+      {
+          value: 1,
+          color: "#8B668B",
+          highlight: "#FFBBFF",
+          label: "C# & #"
+      }
+    ];
+
+    var configs = {
+      //Boolean - Show a backdrop to the scale label
+      scaleShowLabelBackdrop : true,
+
+      //String - The colour of the label backdrop
+      scaleBackdropColor : "rgba(255,255,255,0.75)",
+
+      // Boolean - Whether the scale should begin at zero
+      scaleBeginAtZero : true,
+
+      //Number - The backdrop padding above & below the label in pixels
+      scaleBackdropPaddingY : 1,
+
+      //Number - The backdrop padding to the side of the label in pixels
+      scaleBackdropPaddingX : 1,
+
+      //Boolean - Show line for each value in the scale
+      scaleShowLine : true,
+
+      //Boolean - Stroke a line around each segment in the chart
+      segmentShowStroke : true,
+
+      //String - The colour of the stroke on each segement.
+      segmentStrokeColor : "#fff",
+
+      //Number - The width of the stroke value in pixels
+      segmentStrokeWidth : 1,
+
+      //Number - Amount of animation steps
+      animationSteps : 100,
+
+      //String - Animation easing effect.
+      animationEasing : "easeOutBounce",
+
+      //Boolean - Whether to animate the rotation of the chart
+      animateRotate : true,
+
+      //Boolean - Whether to animate scaling the chart from the centre
+      animateScale : false
+    }
+
+    var ctx = document.getElementById("skillChart").getContext("2d");
+    var myNewChart = new Chart(ctx).PolarArea(data, configs);
+
+    var ctx = document.getElementById("timeChart").getContext("2d");
+    var timeNewChart = new Chart(ctx).Pie(timeData, configs);
+
+    $("#legendDiv").html(myNewChart.generateLegend());
+  });
+</script>
