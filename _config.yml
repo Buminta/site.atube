@@ -5,8 +5,6 @@ paginate_path: "page:num"
 exclude: ["README.md"] # files to exclude
 highlighter: pygments
 markdown: kramdown
-disqus_shortname: tanbui
-
 
 defaults:
   -
@@ -17,7 +15,7 @@ defaults:
 
 description: Site.atube
 author:
-  name: Tan Bui
+  name: Silk
   avatar: songngu.jpg
   favicon: songngu.jpg
 
