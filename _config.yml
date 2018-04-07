@@ -1,0 +1,36 @@
+# visit https://github.com/mojombo/jekyll/wiki/Configuration for more settings
+gems: [jekyll-paginate]
+paginate: 10 # pagination based on number of posts
+paginate_path: "page:num"
+exclude: ["README.md"] # files to exclude
+highlighter: pygments
+markdown: kramdown
+disqus_shortname: tanbui
+
+
+defaults:
+  -
+    scope:
+      path: "" # empty string for all files
+    values:
+      title: Site.atube
+
+description: Site.atube
+author:
+  name: Tan Bui
+  email: tanbm.hut@gmail.com
+  github: buminta
+  twitter: buminta
+  pinterest: buminta
+  facebook: buminta
+  bio: Developer all platform
+  avatar: buminta.jpg
+  favicon: buminta.jpg
+
+rss_path: feed.xml
+categories_path: categories.html
+tags_path: tags.html
+search_path: search.html
+
+BASE_PATH: 
+DOMAIN: atube.site
