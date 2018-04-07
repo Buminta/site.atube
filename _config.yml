@@ -18,14 +18,8 @@ defaults:
 description: Site.atube
 author:
   name: Tan Bui
-  email: tanbm.hut@gmail.com
-  github: buminta
-  twitter: buminta
-  pinterest: buminta
-  facebook: buminta
-  bio: Developer all platform
-  avatar: buminta.jpg
-  favicon: buminta.jpg
+  avatar: songngu.jpg
+  favicon: songngu.jpg
 
 rss_path: feed.xml
 categories_path: categories.html
