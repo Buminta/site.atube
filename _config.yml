@@ -11,7 +11,7 @@ defaults:
     scope:
       path: "" # empty string for all files
     values:
-      title: Site.atube
+      # title: Site.atube
 
 description: Site.atube
 author:
