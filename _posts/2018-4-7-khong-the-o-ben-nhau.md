@@ -1,9 +1,7 @@
 ---
 layout: post
 title: [ Thiên Bình - Cự Giải ] Không thể bên nhau !
-categories: [One-short, Cổ tích]
-tags: [thienbinh, cugiai]
-description: Tác giả: Cherry_Moon - Nhân vật không thuộc về tác giả.
+description: TG.Cherry_Moon - Nhân vật không thuộc về tác giả.
 ---
 
 Tí tách! Tí tách!
@@ -70,25 +68,6 @@ Không! Không thể nào!
 
 - Anh nói dối. - Cự Giải đứng bật dậy, khóe mắt đã ầng ậc nước, như thể chỉ vài giây nữa thôi nó sẽ trào ra. Đôi môi đỏ mọng lắp bắp. Đây là sự thật ư? Tình yêu suốt ba năm qua của cô không đủ để làm thay đổi anh ư?
 
-YOU'LL ALSO LIKE
-[12 chòm sao] Định mệnh hai ta by Iris_BTS
-[12 chòm sao] Định mệnh hai ta
-By Iris_BTS
- 52.8K  2.9K
-Đứa con thứ sau Em là của anh!
-                  Summary:
-                  12 con người
-                  12 tính cách
-                  Tình cảm có nảy sinh khi họ gặp nhau? Hay là đau khổ? Hạnh phúc hay đau khổ, chỉ có tương lai và duyên phận mới biết được. Hãy đón đọc Định mệnh hai ta
-XỬ NỮ ! EM CHỌN AI (Xử Nữ x Bạch Dương , Thiên Yết , Nhân Mã , Sư Tử , Ma Kết). by Tookokonoha191944
-XỬ NỮ ! EM CHỌN AI (Xử Nữ x Bạch Dương , Th...
-By Tookokonoha191944
- 1K  55
-Trong chuyện này Bạch Dương và Xử Nữ sẽ là một cặp nha mọi người mong mọi người không chê mình làm dở .
-Tình Dương Duyên Âm by NhuUyenLinh
-Tình Dương Duyên Âm
-By NhuUyenLinh
- 2.4K  59
 Cô mệt mỏi với ngày nào cũng bị ma ám, cô có lẽ từ 10 tuổi cho tới bây giờ là 21. Mệt mỏi và tuyệt vọng, cô muốn mình chết khuất đi cho rồi. 
 Nhưng không hiểu tại sao, mỗi lần cô có ý định chết thì giống như có ai đó bảo vệ. Làm cô muốn chết cũng thật khó. Cô tự nhủ: " Mạng mình thật lớn, nhưng cũng thật khổ. Thôi thì sống tới khi hết số vậy." 
 Rốt cục cô cũng không chịu nổi nữa, liền 

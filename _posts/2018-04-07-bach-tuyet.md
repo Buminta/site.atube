@@ -1,9 +1,7 @@
 ---
 layout: post
 title: [Kim Ngưu - Bảo Bình] Bạch Tuyết
-categories: [One-short, Cổ tích]
-tags: [kim, nguu, bao, binh, bach, tuyet]
-description: Tác giả: Cherry_Moon - Nhân vật không thuộc về tác giả.
+description: TG.Cherry_Moon - Nhân vật không thuộc về tác giả.
 ---
 
 Rating: nam chính rõ ràng không phù hợp cho câu chuyện :
